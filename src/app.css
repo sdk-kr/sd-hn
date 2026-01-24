@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--font-mono: 'Fira Code', monospace;
+	--font-sans: 'Inter', system-ui, sans-serif;
+}
+
+html {
+	font-family: var(--font-sans);
+}
+
+code, pre {
+	font-family: var(--font-mono) !important;
+}
+
+/* 라이트 모드 기본값 */
+html.light {
+	--bg-primary: #ffffff;
+	--bg-secondary: #f8fafc;
+	--bg-tertiary: #f1f5f9;
+	--text-primary: #0f172a;
+	--text-secondary: #475569;
+	--text-tertiary: #64748b;
+	--border-color: #e2e8f0;
+}
+
+/* 다크 모드 */
+html.dark {
+	--bg-primary: #0f172a;
+	--bg-secondary: #1e293b;
+	--bg-tertiary: #334155;
+	--text-primary: #f1f5f9;
+	--text-secondary: #94a3b8;
+	--text-tertiary: #64748b;
+	--border-color: #334155;
+}
+
+/* 스크롤바 스타일링 - 다크 */
+html.dark ::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+}
+
+html.dark ::-webkit-scrollbar-track {
+	background: #1e293b;
+}
+
+html.dark ::-webkit-scrollbar-thumb {
+	background: #475569;
+	border-radius: 4px;
+}
+
+html.dark ::-webkit-scrollbar-thumb:hover {
+	background: #64748b;
+}
+
+/* 스크롤바 스타일링 - 라이트 */
+html.light ::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+}
+
+html.light ::-webkit-scrollbar-track {
+	background: #f1f5f9;
+}
+
+html.light ::-webkit-scrollbar-thumb {
+	background: #cbd5e1;
+	border-radius: 4px;
+}
+
+html.light ::-webkit-scrollbar-thumb:hover {
+	background: #94a3b8;
+}
+
+/* 선택 영역 스타일 */
+::selection {
+	background: #f59e0b;
+	color: #ffffff;
+}
+
+/* 테마 전환 애니메이션 */
+html {
+	transition: background-color 0.3s ease, color 0.3s ease;
+}
