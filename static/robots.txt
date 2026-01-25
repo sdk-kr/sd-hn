@@ -1,5 +1,5 @@
-# SD.hn - QR & Link Tools
+# QR.SD.gy - QR & Link Tools
 User-agent: *
 Allow: /
 
-Sitemap: https://sd.hn/sitemap.xml
+Sitemap: https://qr.sd.gy/sitemap.xml

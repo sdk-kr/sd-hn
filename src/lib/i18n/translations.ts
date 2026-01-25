@@ -3,7 +3,7 @@ import type { Locale } from './index';
 export const common: Record<Locale, Record<string, string>> = {
 	en: {
 		'nav.home': 'Home',
-		'footer.copyright': '© 2025 SD.hn - Free QR & Link Tools',
+		'footer.copyright': '© 2025 QR.SD.gy - Free QR & Link Tools',
 		'footer.about': 'About',
 		'footer.privacy': 'Privacy Policy',
 		'footer.terms': 'Terms of Service',
@@ -167,7 +167,7 @@ export const common: Record<Locale, Record<string, string>> = {
 	},
 	ko: {
 		'nav.home': '홈',
-		'footer.copyright': '© 2025 SD.hn - 무료 QR & 링크 도구',
+		'footer.copyright': '© 2025 QR.SD.gy - 무료 QR & 링크 도구',
 		'footer.about': '소개',
 		'footer.privacy': '개인정보 처리방침',
 		'footer.terms': '이용약관',
@@ -331,7 +331,7 @@ export const common: Record<Locale, Record<string, string>> = {
 	},
 	ja: {
 		'nav.home': 'ホーム',
-		'footer.copyright': '© 2025 SD.hn - 無料QR・リンクツール',
+		'footer.copyright': '© 2025 QR.SD.gy - 無料QR・リンクツール',
 		'footer.about': '紹介',
 		'footer.privacy': 'プライバシーポリシー',
 		'footer.terms': '利用規約',
@@ -495,7 +495,7 @@ export const common: Record<Locale, Record<string, string>> = {
 	},
 	zh: {
 		'nav.home': '首页',
-		'footer.copyright': '© 2025 SD.hn - 免费二维码和链接工具',
+		'footer.copyright': '© 2025 QR.SD.gy - 免费二维码和链接工具',
 		'footer.about': '关于',
 		'footer.privacy': '隐私政策',
 		'footer.terms': '服务条款',

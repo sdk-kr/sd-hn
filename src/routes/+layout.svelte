@@ -40,17 +40,17 @@
 
 <svelte:head>
 	{#each locales as loc}
-		<link rel="alternate" hreflang={loc} href="https://sd.hn/{loc}{$page.url.pathname.replace(/^\/(en|ko|ja|zh)/, '')}" />
+		<link rel="alternate" hreflang={loc} href="https://qr.sd.gy/{loc}{$page.url.pathname.replace(/^\/(en|ko|ja|zh)/, '')}" />
 	{/each}
-	<link rel="alternate" hreflang="x-default" href="https://sd.hn/en{$page.url.pathname.replace(/^\/(en|ko|ja|zh)/, '')}" />
+	<link rel="alternate" hreflang="x-default" href="https://qr.sd.gy/en{$page.url.pathname.replace(/^\/(en|ko|ja|zh)/, '')}" />
 </svelte:head>
 
 <div class="min-h-screen flex flex-col bg-white dark:bg-dark-950 transition-colors">
 	<nav class="bg-gray-50 dark:bg-dark-900 border-b border-gray-200 dark:border-dark-700 px-4 py-3 sticky top-0 z-50">
 		<div class="max-w-7xl mx-auto flex items-center justify-between">
 			<a href={basePath} class="flex items-center gap-1">
-				<span class="text-2xl font-bold text-cyan-500">SD</span>
-				<span class="text-xl font-semibold text-gray-800 dark:text-dark-100">.hn</span>
+				<span class="text-2xl font-bold text-violet-500">QR</span>
+				<span class="text-xl font-semibold text-gray-800 dark:text-dark-100">.SD.gy</span>
 			</a>
 
 			<div class="flex items-center gap-4 md:gap-6">

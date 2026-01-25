@@ -1,18 +1,18 @@
 import type { RequestHandler } from './$types';
 
-const SITE = 'https://sdk.xyz';
+const SITE = 'https://qr.sd.gy';
 const LANGS = ['en', 'ko', 'ja', 'zh'];
 
 const PAGES = [
 	'',
-	'/compress',
-	'/resize',
-	'/convert',
-	'/crop',
-	'/rotate',
-	'/watermark',
-	'/base64',
-	'/pdf',
+	'/qr-generator',
+	'/barcode',
+	'/wifi-qr',
+	'/vcard-qr',
+	'/url-parser',
+	'/base64-url',
+	'/slug-generator',
+	'/utm-builder',
 	'/about',
 	'/privacy',
 	'/terms',
