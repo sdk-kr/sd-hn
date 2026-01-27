@@ -57,6 +57,7 @@
 				<a href="{basePath}/qr-generator" class="text-gray-600 dark:text-dark-300 hover:text-cyan-500 dark:hover:text-cyan-400 transition-colors text-sm">
 					{$locale === 'ko' ? 'QR코드' : $locale === 'ja' ? 'QRコード' : $locale === 'zh' ? '二维码' : 'QR Code'}
 				</a>
+				<a href="{basePath}/blog" class="text-gray-600 dark:text-dark-300 hover:text-violet-500 transition-colors text-sm">Blog</a>
 				<a href="{basePath}/barcode" class="hidden sm:inline text-gray-600 dark:text-dark-300 hover:text-cyan-500 dark:hover:text-cyan-400 transition-colors text-sm">
 					{$locale === 'ko' ? '바코드' : $locale === 'ja' ? 'バーコード' : $locale === 'zh' ? '条形码' : 'Barcode'}
 				</a>
