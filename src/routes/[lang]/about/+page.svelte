@@ -6,107 +6,107 @@
 
 	const content = {
 		en: {
-			title: 'About SDK.xyz',
-			subtitle: 'Free Image Tools',
-			description: 'SDK.xyz provides free, fast, and privacy-focused image tools that work directly in your browser. No uploads, no servers - just instant image processing.',
+			title: 'About QR.SD.gy',
+			subtitle: 'Free QR Code & URL Tools',
+			description: 'QR.SD.gy provides free, fast, and privacy-focused QR code and URL tools that work directly in your browser. No uploads, no servers - just instant processing.',
 			features: {
 				title: 'Our Tools',
 				items: [
-					'Image Compressor - Reduce file size while maintaining quality',
-					'Image Resizer - Resize images to any dimensions',
-					'Format Converter - Convert between PNG, JPG, and WebP',
-					'Image Cropper - Crop images to exact dimensions',
-					'Rotate & Flip - Rotate or flip images easily',
-					'Add Watermark - Add text or image watermarks',
-					'Image to Base64 - Convert images to Base64 strings',
-					'Images to PDF - Combine multiple images into PDF'
+					'QR Code Generator - Create QR codes for any text or URL with custom colors',
+					'Barcode Generator - Generate various barcode formats (Code 128, EAN, UPC, etc.)',
+					'WiFi QR Code - Create QR codes for instant WiFi network sharing',
+					'vCard QR Code - Generate digital business card QR codes',
+					'URL Parser - Parse and analyze URL components in detail',
+					'Base64 URL Encoder/Decoder - Encode and decode Base64 URL strings',
+					'Slug Generator - Create URL-friendly slugs from any text',
+					'UTM Builder - Build URLs with UTM tracking parameters'
 				]
 			},
 			privacy: {
 				title: 'Privacy First',
-				text: 'All image processing happens entirely in your browser. Your images never leave your device and are never uploaded to any server. We take your privacy seriously.'
+				text: 'All processing happens entirely in your browser. Your data never leaves your device and is never uploaded to any server. We take your privacy seriously.'
 			},
 			contact: {
 				title: 'Contact',
-				text: 'For questions or feedback, please contact us at hello@sdk.xyz'
+				text: 'For questions or feedback, please visit our contact page.'
 			}
 		},
 		ko: {
-			title: 'SDK.xyz 소개',
-			subtitle: '무료 이미지 도구',
-			description: 'SDK.xyz는 브라우저에서 바로 작동하는 무료, 빠른, 개인정보 보호 중심의 이미지 도구를 제공합니다. 업로드 없이, 서버 없이 - 즉시 이미지 처리.',
+			title: 'QR.SD.gy 소개',
+			subtitle: '무료 QR코드 & URL 도구',
+			description: 'QR.SD.gy는 브라우저에서 바로 작동하는 무료, 빠른, 개인정보 보호 중심의 QR코드 및 URL 도구를 제공합니다. 업로드 없이, 서버 없이 - 즉시 처리.',
 			features: {
 				title: '도구 소개',
 				items: [
-					'이미지 압축 - 품질을 유지하면서 파일 크기 줄이기',
-					'이미지 크기 조절 - 원하는 크기로 이미지 조절',
-					'포맷 변환 - PNG, JPG, WebP 간 변환',
-					'이미지 자르기 - 원하는 영역으로 이미지 자르기',
-					'회전 및 뒤집기 - 이미지 회전 및 뒤집기',
-					'워터마크 추가 - 텍스트 또는 이미지 워터마크 추가',
-					'이미지 → Base64 - 이미지를 Base64로 변환',
-					'이미지 → PDF - 여러 이미지를 PDF로 합치기'
+					'QR코드 생성기 - 텍스트나 URL로 맞춤 색상 QR코드 생성',
+					'바코드 생성기 - 다양한 바코드 형식 생성 (Code 128, EAN, UPC 등)',
+					'WiFi QR코드 - WiFi 네트워크 공유용 QR코드 생성',
+					'vCard QR코드 - 디지털 명함 QR코드 생성',
+					'URL 분석기 - URL 구성 요소 상세 분석',
+					'Base64 URL 인코더/디코더 - Base64 URL 문자열 인코딩/디코딩',
+					'슬러그 생성기 - 텍스트에서 URL용 슬러그 생성',
+					'UTM 빌더 - UTM 추적 매개변수가 포함된 URL 생성'
 				]
 			},
 			privacy: {
 				title: '개인정보 보호 우선',
-				text: '모든 이미지 처리는 브라우저에서 완전히 이루어집니다. 이미지가 기기를 떠나거나 서버로 업로드되지 않습니다. 개인정보 보호를 중요하게 생각합니다.'
+				text: '모든 처리는 브라우저에서 완전히 이루어집니다. 데이터가 기기를 떠나거나 서버로 업로드되지 않습니다. 개인정보 보호를 중요하게 생각합니다.'
 			},
 			contact: {
 				title: '연락처',
-				text: '문의사항이나 피드백은 hello@sdk.xyz로 연락해 주세요.'
+				text: '문의사항이나 피드백은 문의 페이지를 방문해 주세요.'
 			}
 		},
 		ja: {
-			title: 'SDK.xyz について',
-			subtitle: '無料画像ツール',
-			description: 'SDK.xyzは、ブラウザで直接動作する無料、高速、プライバシー重視の画像ツールを提供します。アップロード不要、サーバー不要 - 即座に画像処理。',
+			title: 'QR.SD.gy について',
+			subtitle: '無料QRコード＆URLツール',
+			description: 'QR.SD.gyは、ブラウザで直接動作する無料、高速、プライバシー重視のQRコードとURLツールを提供します。アップロード不要、サーバー不要 - 即座に処理。',
 			features: {
 				title: 'ツール紹介',
 				items: [
-					'画像圧縮 - 品質を維持しながらファイルサイズを縮小',
-					'画像リサイズ - 画像を任意のサイズに変更',
-					'フォーマット変換 - PNG、JPG、WebP間で変換',
-					'画像切り抜き - 画像を正確なサイズに切り抜き',
-					'回転と反転 - 画像を簡単に回転・反転',
-					'透かし追加 - テキストや画像の透かしを追加',
-					'画像→Base64 - 画像をBase64に変換',
-					'画像→PDF - 複数の画像をPDFに結合'
+					'QRコード生成器 - テキストやURLからカスタムカラーのQRコードを作成',
+					'バーコード生成器 - 各種バーコード形式を生成（Code 128、EAN、UPCなど）',
+					'WiFi QRコード - WiFiネットワーク共有用QRコードを作成',
+					'vCard QRコード - デジタル名刺QRコードを生成',
+					'URLパーサー - URLの構成要素を詳細に分析',
+					'Base64 URLエンコーダー/デコーダー - Base64 URL文字列のエンコード/デコード',
+					'スラグ生成器 - テキストからURL用スラグを生成',
+					'UTMビルダー - UTM追跡パラメータ付きURLを作成'
 				]
 			},
 			privacy: {
 				title: 'プライバシー優先',
-				text: 'すべての画像処理はブラウザで完全に行われます。画像はデバイスから離れることなく、サーバーにアップロードされることもありません。プライバシーを重視しています。'
+				text: 'すべての処理はブラウザで完全に行われます。データはデバイスから離れることなく、サーバーにアップロードされることもありません。プライバシーを重視しています。'
 			},
 			contact: {
 				title: 'お問い合わせ',
-				text: 'ご質問やフィードバックは hello@sdk.xyz までご連絡ください。'
+				text: 'ご質問やフィードバックはお問い合わせページをご覧ください。'
 			}
 		},
 		zh: {
-			title: '关于 SDK.xyz',
-			subtitle: '免费图片工具',
-			description: 'SDK.xyz 提供免费、快速、注重隐私的图片工具，直接在您的浏览器中运行。无需上传，无需服务器 - 即时图片处理。',
+			title: '关于 QR.SD.gy',
+			subtitle: '免费QR码和URL工具',
+			description: 'QR.SD.gy 提供免费、快速、注重隐私的QR码和URL工具，直接在您的浏览器中运行。无需上传，无需服务器 - 即时处理。',
 			features: {
 				title: '工具介绍',
 				items: [
-					'图片压缩 - 在保持质量的同时减小文件大小',
-					'图片调整大小 - 将图片调整到任意尺寸',
-					'格式转换 - PNG、JPG、WebP 格式互转',
-					'图片裁剪 - 裁剪图片到精确尺寸',
-					'旋转和翻转 - 轻松旋转或翻转图片',
-					'添加水印 - 添加文字或图片水印',
-					'图片转 Base64 - 将图片转换为 Base64',
-					'图片转 PDF - 将多张图片合并为 PDF'
+					'QR码生成器 - 从文本或URL创建自定义颜色的QR码',
+					'条形码生成器 - 生成各种条形码格式（Code 128、EAN、UPC等）',
+					'WiFi QR码 - 创建WiFi网络共享用QR码',
+					'vCard QR码 - 生成数字名片QR码',
+					'URL解析器 - 详细分析URL组成部分',
+					'Base64 URL编码器/解码器 - Base64 URL字符串的编码/解码',
+					'Slug生成器 - 从文本生成URL友好的slug',
+					'UTM构建器 - 创建带UTM跟踪参数的URL'
 				]
 			},
 			privacy: {
 				title: '隐私优先',
-				text: '所有图片处理完全在您的浏览器中进行。图片永远不会离开您的设备，也永远不会上传到任何服务器。我们非常重视您的隐私。'
+				text: '所有处理完全在您的浏览器中进行。数据永远不会离开您的设备，也永远不会上传到任何服务器。我们非常重视您的隐私。'
 			},
 			contact: {
 				title: '联系我们',
-				text: '如有问题或反馈，请联系 hello@sdk.xyz'
+				text: '如有问题或反馈，请访问我们的联系页面。'
 			}
 		}
 	};
@@ -115,7 +115,7 @@
 </script>
 
 <svelte:head>
-	<title>{t.title} - SDK.xyz</title>
+	<title>{t.title} - QR.SD.gy</title>
 	<meta name="description" content={t.description} />
 </svelte:head>
 

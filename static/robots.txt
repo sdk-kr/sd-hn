@@ -1,5 +1,10 @@
-# QR.SD.gy - QR & Link Tools
 User-agent: *
+Allow: /
+
+User-agent: Mediapartners-Google
+Allow: /
+
+User-agent: Googlebot
 Allow: /
 
 Sitemap: https://qr.sd.gy/sitemap.xml

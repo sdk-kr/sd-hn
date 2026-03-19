@@ -8,21 +8,21 @@
 		en: {
 			title: 'Contact Us',
 			subtitle: 'Get in Touch',
-			description: 'Have questions or feedback about our image tools? We would love to hear from you.',
+			description: 'Have questions or feedback about our QR code and URL tools? We would love to hear from you.',
 			channels: {
 				general: {
 					title: 'General Inquiries',
-					email: 'hello@sdk.xyz',
-					description: 'For general questions about SDK.xyz and our image tools.'
+					email: 'hello@sd.gy',
+					description: 'For general questions about QR.SD.gy and our QR code and URL tools.'
 				},
 				support: {
 					title: 'Technical Support',
-					email: 'support@sdk.xyz',
+					email: 'support@sd.gy',
 					description: 'Need help with a specific tool? Report bugs or technical issues here.'
 				},
 				business: {
 					title: 'Business',
-					email: 'business@sdk.xyz',
+					email: 'business@sd.gy',
 					description: 'For partnerships, collaborations, and business inquiries.'
 				}
 			},
@@ -34,21 +34,21 @@
 		ko: {
 			title: '문의하기',
 			subtitle: '연락처',
-			description: '이미지 도구에 대한 질문이나 피드백이 있으신가요? 언제든지 연락해 주세요.',
+			description: 'QR코드 및 URL 도구에 대한 질문이나 피드백이 있으신가요? 언제든지 연락해 주세요.',
 			channels: {
 				general: {
 					title: '일반 문의',
-					email: 'hello@sdk.xyz',
-					description: 'SDK.xyz 및 이미지 도구에 대한 일반적인 질문'
+					email: 'hello@sd.gy',
+					description: 'QR.SD.gy 및 QR코드 및 URL 도구에 대한 일반적인 질문'
 				},
 				support: {
 					title: '기술 지원',
-					email: 'support@sdk.xyz',
+					email: 'support@sd.gy',
 					description: '특정 도구에 대한 도움이 필요하신가요? 버그 또는 기술적 문제 보고'
 				},
 				business: {
 					title: '비즈니스',
-					email: 'business@sdk.xyz',
+					email: 'business@sd.gy',
 					description: '파트너십, 협업 및 비즈니스 문의'
 				}
 			},
@@ -60,21 +60,21 @@
 		ja: {
 			title: 'お問い合わせ',
 			subtitle: 'ご連絡ください',
-			description: '画像ツールについてご質問やフィードバックがございましたら、お気軽にご連絡ください。',
+			description: 'QRコード・URLツールについてご質問やフィードバックがございましたら、お気軽にご連絡ください。',
 			channels: {
 				general: {
 					title: '一般的なお問い合わせ',
-					email: 'hello@sdk.xyz',
-					description: 'SDK.xyzおよび画像ツールに関する一般的なご質問'
+					email: 'hello@sd.gy',
+					description: 'QR.SD.gyおよびQRコード・URLツールに関する一般的なご質問'
 				},
 				support: {
 					title: 'テクニカルサポート',
-					email: 'support@sdk.xyz',
+					email: 'support@sd.gy',
 					description: '特定のツールに関するヘルプが必要ですか？バグや技術的な問題をご報告ください'
 				},
 				business: {
 					title: 'ビジネス',
-					email: 'business@sdk.xyz',
+					email: 'business@sd.gy',
 					description: 'パートナーシップ、コラボレーション、ビジネスに関するお問い合わせ'
 				}
 			},
@@ -86,21 +86,21 @@
 		zh: {
 			title: '联系我们',
 			subtitle: '取得联系',
-			description: '对我们的图片工具有问题或反馈？欢迎随时联系我们。',
+			description: '对我们的QR码和URL工具有问题或反馈？欢迎随时联系我们。',
 			channels: {
 				general: {
 					title: '一般咨询',
-					email: 'hello@sdk.xyz',
-					description: '关于 SDK.xyz 和图片工具的一般问题'
+					email: 'hello@sd.gy',
+					description: '关于 QR.SD.gy 和QR码和URL工具的一般问题'
 				},
 				support: {
 					title: '技术支持',
-					email: 'support@sdk.xyz',
+					email: 'support@sd.gy',
 					description: '需要特定工具的帮助？在这里报告错误或技术问题'
 				},
 				business: {
 					title: '商务合作',
-					email: 'business@sdk.xyz',
+					email: 'business@sd.gy',
 					description: '合作伙伴关系、协作和商务咨询'
 				}
 			},
@@ -115,7 +115,7 @@
 </script>
 
 <svelte:head>
-	<title>{t.title} - SDK.xyz</title>
+	<title>{t.title} - QR.SD.gy</title>
 	<meta name="description" content={t.description} />
 </svelte:head>
 

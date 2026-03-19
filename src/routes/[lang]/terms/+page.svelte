@@ -11,11 +11,11 @@
 			sections: [
 				{
 					title: 'Acceptance of Terms',
-					text: 'By using SDK.is, you agree to these terms of service. If you do not agree, please do not use our services.'
+					text: 'By using QR.SD.gy, you agree to these terms of service. If you do not agree, please do not use our services.'
 				},
 				{
 					title: 'Service Description',
-					text: 'SDK.is provides free online developer tools including JSON formatter, Base64 encoder/decoder, UUID generator, and hash generator.'
+					text: 'QR.SD.gy provides free online QR code and URL tools including QR Code Generator, Barcode Generator, WiFi QR, vCard QR, URL Parser, and UTM Builder.'
 				},
 				{
 					title: 'Use of Service',
@@ -35,7 +35,7 @@
 				},
 				{
 					title: 'Contact',
-					text: 'For questions about these terms, contact us at hello@sdk.is.'
+					text: 'For questions about these terms, contact us at hello@sd.gy.'
 				}
 			]
 		},
@@ -45,11 +45,11 @@
 			sections: [
 				{
 					title: '약관 동의',
-					text: 'SDK.is를 사용함으로써 본 이용약관에 동의하게 됩니다. 동의하지 않는 경우 서비스를 사용하지 마세요.'
+					text: 'QR.SD.gy를 사용함으로써 본 이용약관에 동의하게 됩니다. 동의하지 않는 경우 서비스를 사용하지 마세요.'
 				},
 				{
 					title: '서비스 설명',
-					text: 'SDK.is는 JSON 포매터, Base64 인코더/디코더, UUID 생성기, 해시 생성기 등 무료 온라인 개발자 도구를 제공합니다.'
+					text: 'QR.SD.gy는 QR코드 생성기, 바코드 생성기, WiFi QR, vCard QR, URL 분석기, UTM 빌더 등 무료 온라인 QR코드 및 URL 도구를 제공합니다.'
 				},
 				{
 					title: '서비스 사용',
@@ -69,7 +69,7 @@
 				},
 				{
 					title: '연락처',
-					text: '약관에 대한 문의는 hello@sdk.is로 연락해 주세요.'
+					text: '약관에 대한 문의는 hello@sd.gy로 연락해 주세요.'
 				}
 			]
 		},
@@ -79,11 +79,11 @@
 			sections: [
 				{
 					title: '規約への同意',
-					text: 'SDK.isを使用することにより、本利用規約に同意したものとみなされます。同意しない場合は、サービスを使用しないでください。'
+					text: 'QR.SD.gyを使用することにより、本利用規約に同意したものとみなされます。同意しない場合は、サービスを使用しないでください。'
 				},
 				{
 					title: 'サービスの説明',
-					text: 'SDK.isは、JSONフォーマッター、Base64エンコーダー/デコーダー、UUIDジェネレーター、ハッシュジェネレーターなどの無料オンライン開発者ツールを提供します。'
+					text: 'QR.SD.gyは、QRコード生成器、バーコード生成器、WiFi QR、vCard QR、URLパーサー、UTMビルダーなどの無料オンラインQRコード・URLツールを提供します。'
 				},
 				{
 					title: 'サービスの利用',
@@ -103,7 +103,7 @@
 				},
 				{
 					title: 'お問い合わせ',
-					text: '規約に関するご質問は hello@sdk.is までご連絡ください。'
+					text: '規約に関するご質問は hello@sd.gy までご連絡ください。'
 				}
 			]
 		},
@@ -113,11 +113,11 @@
 			sections: [
 				{
 					title: '接受条款',
-					text: '使用 SDK.is 即表示您同意这些服务条款。如果您不同意，请不要使用我们的服务。'
+					text: '使用 QR.SD.gy 即表示您同意这些服务条款。如果您不同意，请不要使用我们的服务。'
 				},
 				{
 					title: '服务描述',
-					text: 'SDK.is 提供免费的在线开发者工具，包括 JSON 格式化器、Base64 编码器/解码器、UUID 生成器和哈希生成器。'
+					text: 'QR.SD.gy 提供免费的在线QR码和URL工具，包括QR码生成器、条形码生成器、WiFi QR、vCard QR、URL解析器和UTM构建器。'
 				},
 				{
 					title: '服务使用',
@@ -137,7 +137,7 @@
 				},
 				{
 					title: '联系我们',
-					text: '如有关于这些条款的问题，请联系 hello@sdk.is。'
+					text: '如有关于这些条款的问题，请联系 hello@sd.gy。'
 				}
 			]
 		}
@@ -147,7 +147,7 @@
 </script>
 
 <svelte:head>
-	<title>{t.title} - SDK.is</title>
+	<title>{t.title} - QR.SD.gy</title>
 </svelte:head>
 
 <div class="max-w-3xl mx-auto px-4 py-12">

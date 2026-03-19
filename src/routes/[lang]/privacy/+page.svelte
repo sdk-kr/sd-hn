@@ -11,11 +11,11 @@
 			sections: [
 				{
 					title: 'Data Collection',
-					text: 'SDK.is does not collect, store, or transmit any personal data. All tools run entirely in your browser.'
+					text: 'QR.SD.gy does not collect, store, or transmit any personal data. All tools run entirely in your browser.'
 				},
 				{
 					title: 'Local Processing',
-					text: 'All data you enter (JSON, text, etc.) is processed locally in your browser and never leaves your device.'
+					text: 'All data you enter (QR codes, URLs, etc.) is processed locally in your browser and never leaves your device.'
 				},
 				{
 					title: 'Cookies',
@@ -31,7 +31,7 @@
 				},
 				{
 					title: 'Contact',
-					text: 'For privacy-related questions, contact us at hello@sdk.is.'
+					text: 'For privacy-related questions, contact us at hello@sd.gy.'
 				}
 			]
 		},
@@ -41,11 +41,11 @@
 			sections: [
 				{
 					title: '데이터 수집',
-					text: 'SDK.is는 개인 데이터를 수집, 저장 또는 전송하지 않습니다. 모든 도구는 브라우저에서 완전히 실행됩니다.'
+					text: 'QR.SD.gy는 개인 데이터를 수집, 저장 또는 전송하지 않습니다. 모든 도구는 브라우저에서 완전히 실행됩니다.'
 				},
 				{
 					title: '로컬 처리',
-					text: '입력하신 모든 데이터(JSON, 텍스트 등)는 브라우저에서 로컬로 처리되며 기기를 떠나지 않습니다.'
+					text: '입력하신 모든 데이터(QR코드, URL 등)는 브라우저에서 로컬로 처리되며 기기를 떠나지 않습니다.'
 				},
 				{
 					title: '쿠키',
@@ -61,7 +61,7 @@
 				},
 				{
 					title: '연락처',
-					text: '개인정보 관련 문의는 hello@sdk.is로 연락해 주세요.'
+					text: '개인정보 관련 문의는 hello@sd.gy로 연락해 주세요.'
 				}
 			]
 		},
@@ -71,11 +71,11 @@
 			sections: [
 				{
 					title: 'データ収集',
-					text: 'SDK.isは個人データを収集、保存、または送信しません。すべてのツールはブラウザで完全に実行されます。'
+					text: 'QR.SD.gyは個人データを収集、保存、または送信しません。すべてのツールはブラウザで完全に実行されます。'
 				},
 				{
 					title: 'ローカル処理',
-					text: '入力したすべてのデータ（JSON、テキストなど）はブラウザでローカルに処理され、デバイスから離れることはありません。'
+					text: '入力したすべてのデータ（QRコード、URLなど）はブラウザでローカルに処理され、デバイスから離れることはありません。'
 				},
 				{
 					title: 'Cookie',
@@ -91,7 +91,7 @@
 				},
 				{
 					title: 'お問い合わせ',
-					text: 'プライバシーに関するご質問は hello@sdk.is までご連絡ください。'
+					text: 'プライバシーに関するご質問は hello@sd.gy までご連絡ください。'
 				}
 			]
 		},
@@ -101,11 +101,11 @@
 			sections: [
 				{
 					title: '数据收集',
-					text: 'SDK.is 不收集、存储或传输任何个人数据。所有工具完全在您的浏览器中运行。'
+					text: 'QR.SD.gy 不收集、存储或传输任何个人数据。所有工具完全在您的浏览器中运行。'
 				},
 				{
 					title: '本地处理',
-					text: '您输入的所有数据（JSON、文本等）都在浏览器中本地处理，不会离开您的设备。'
+					text: '您输入的所有数据（QR码、URL等）都在浏览器中本地处理，不会离开您的设备。'
 				},
 				{
 					title: 'Cookie',
@@ -121,7 +121,7 @@
 				},
 				{
 					title: '联系我们',
-					text: '如有隐私相关问题，请联系 hello@sdk.is。'
+					text: '如有隐私相关问题，请联系 hello@sd.gy。'
 				}
 			]
 		}
@@ -131,7 +131,7 @@
 </script>
 
 <svelte:head>
-	<title>{t.title} - SDK.is</title>
+	<title>{t.title} - QR.SD.gy</title>
 </svelte:head>
 
 <div class="max-w-3xl mx-auto px-4 py-12">
