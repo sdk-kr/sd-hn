@@ -1,3 +1,6 @@
+# qr.sd.gy — 2026-10-16 색인 제외
+# 전 페이지에 noindex 메타가 있다. 구글이 noindex 를 읽으려면 크롤은 허용해야 하므로
+# Disallow 로 막지 않고 Allow 를 유지한다. sitemap 은 색인 대상이 없어 제거.
 User-agent: *
 Allow: /
 
@@ -6,5 +9,3 @@ Allow: /
 
 User-agent: Googlebot
 Allow: /
-
-Sitemap: https://qr.sd.gy/sitemap.xml

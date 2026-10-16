@@ -1,27 +1,14 @@
 import type { RequestHandler } from './$types';
-import { getAllBlogPosts } from '$lib/data/blog-posts';
 
 const SITE = 'https://qr.sd.gy';
 const LANGS = ['en', 'ko', 'ja', 'zh'];
 
-const PAGES = [
-	'',
-	'/qr-generator',
-	'/barcode',
-	'/wifi-qr',
-	'/vcard-qr',
-	'/url-parser',
-	'/base64-url',
-	'/slug-generator',
-	'/utm-builder',
-	'/about',
-	'/privacy',
-	'/terms',
-	'/contact',
-	'/faq',
-	'/blog',
-	...getAllBlogPosts().map(p => `/blog/${p.slug}`)
-];
+// 2026-10-16: 사이트 전체 색인 제외 — sitemap 을 비운다.
+// 전수 측정 결과 148p 중 83%가 400단어 미만(중앙값 156)이고 도구 페이지도 86~141단어다.
+// qr.sd.gy 는 sd.gy 의 서브도메인이라 애드센스가 sd.gy 와 함께 평가하므로,
+// 정리된 sd.gy 본체(46p·중앙값 1,638단어)를 끌어내린다.
+// 전 페이지 noindex 메타(app.html)와 짝을 이룬다. 콘텐츠 보강 시 되돌린다.
+const PAGES: string[] = [];
 
 export const GET: RequestHandler = async () => {
 	const today = new Date().toISOString().split('T')[0];
